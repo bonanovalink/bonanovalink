@@ -335,30 +335,27 @@ footer{background:var(--charcoal);border-top:2px solid var(--gray-border);paddin
 <!-- BREAKING: EL ACUERDO IMPLÍCITO                                 -->
 <!-- ============================================================ -->
 <div style="max-width:1100px;margin:0 auto;padding:0 2rem;">
-    <div class="news-card featured" style="background:linear-gradient(135deg,#1a0505 0%,#2d1010 45%,#0a0a14 100%);border-radius:8px;border:1px solid var(--gray-border);overflow:hidden;margin:2rem 0;padding:0;">
-        <div>
-            <div style="background:linear-gradient(135deg,#1a0505 0%,#2d1010 45%,#0a0a14 100%);height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;margin-bottom:0;">
-                <span style="font-family:'Space Mono',monospace;font-size:0.55rem;letter-spacing:4px;color:var(--red);text-transform:uppercase;">BREAKING</span>
-                <span style="font-family:'Space Mono',monospace;font-size:0.5rem;letter-spacing:3px;color:rgba(245,240,235,0.25);text-transform:uppercase;">ANÁLISIS · 2026</span>
-            </div>
-            <figure style="margin:0;position:relative;">
-                <img src="09_Politica_Washington_Capitolio.jpg" alt="El Acuerdo Implícito" style="width:100%;height:280px;object-fit:cover;display:block;">
-                <span style="position:absolute;top:10px;left:10px;background:var(--red);color:var(--white);font-family:var(--mono);font-size:0.55rem;padding:3px 10px;border-radius:2px;letter-spacing:2px;text-transform:uppercase;">BREAKING</span>
-            </figure>
-            <p class="news-card-type" style="font-family:'Space Mono',monospace;font-size:0.55rem;letter-spacing:1.5px;color:var(--red);padding:12px 0 0 0;text-transform:uppercase;margin:0;">Análisis · Vera Campos</p>
+    <div style="display:grid;grid-template-columns:1fr 2fr;gap:0;background:linear-gradient(135deg,#1a0505 0%,#2d1010 45%,#0a0a14 100%);border-radius:8px;border:1px solid var(--gray-border);overflow:hidden;margin:2rem 0;align-items:stretch;">
+        <!-- LEFT COLUMN - IMAGE FILLS ENTIRE SPACE -->
+        <div style="position:relative;min-height:100%;height:100%;overflow:hidden;display:flex;">
+            <img src="09_Politica_Washington_Capitolio.jpg" alt="El Acuerdo Implícito" style="width:100%;height:100%;min-height:400px;object-fit:cover;display:block;flex-shrink:0;">
+            <span style="position:absolute;top:10px;left:10px;background:var(--red);color:var(--white);font-family:var(--mono);font-size:0.55rem;padding:3px 10px;border-radius:2px;letter-spacing:2px;text-transform:uppercase;z-index:2;">BREAKING</span>
         </div>
-        <div style="padding:0 2rem 2rem 2rem;">
-            <h3 class="news-card-title" style="font-family:var(--display);font-size:1.8rem;font-weight:700;margin:4px 0 2px 0;color:var(--white);line-height:1.1;">El Acuerdo Implícito</h3>
-            <p style="font-family:var(--serif);font-size:1rem;font-weight:400;color:var(--white-dim);margin-bottom:10px;">Cómo Washington y La Habana convierten la crisis en arquitectura de poder</p>
-            <p class="news-card-desc" style="font-family:var(--serif);font-size:0.95rem;line-height:1.7;color:var(--white-dim);margin-bottom:1.25rem;">
+        
+        <!-- RIGHT COLUMN - TEXT CONTENT -->
+        <div style="padding:2rem 2.5rem 2rem 2rem;display:flex;flex-direction:column;justify-content:center;">
+            <span style="font-family:var(--mono);font-size:0.55rem;color:var(--red);letter-spacing:2px;text-transform:uppercase;">ANÁLISIS · 2026</span>
+            <h2 style="font-family:var(--display);font-size:2rem;font-weight:700;margin:4px 0 2px 0;color:var(--white);line-height:1.1;">El Acuerdo Implícito</h2>
+            <h3 style="font-family:var(--serif);font-size:1.05rem;font-weight:400;color:var(--white-dim);margin-bottom:12px;">Cómo Washington y La Habana convierten la crisis en arquitectura de poder</h3>
+            <p style="font-family:var(--serif);font-size:0.95rem;line-height:1.7;color:var(--white-dim);margin-bottom:18px;">
                 La crisis cubana de 2026 no es un accidente. Es un mecanismo de gobernanza compartida, 
                 un equilibrio tácito donde ambos actores preservan beneficios estratégicos. 
                 Un análisis de <strong style="color:var(--white);">Vera Campos</strong>.
             </p>
-            <div style="margin-top:1.5rem;display:flex;gap:1rem;flex-wrap:wrap;">
-                <a href="https://bonanovalink.substack.com/p/anatomia-de-un-cierre-geopolitico" target="_blank" rel="noopener" class="btn-red" style="display:inline-block;padding:10px 18px;background:#ff6719;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;">SUBSTACK →</a>
-                <a href="https://medium.com/@bonanovalink/cuba-y-los-estados-unidos-2026-la-crisis-que-ambos-gobiernos-necesitan-0d62344e6717" target="_blank" rel="noopener" class="btn-outline" style="display:inline-block;padding:10px 18px;background:transparent;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;border:1px solid var(--gray-border);">MEDIUM →</a>
-                <a href="https://www.tiktok.com/@bona.nova3" target="_blank" rel="noopener" class="btn-outline" style="display:inline-block;padding:10px 18px;background:#000000;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;border:1px solid var(--gray-border);">TIKTOK →</a>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                <a href="https://bonanovalink.substack.com/p/anatomia-de-un-cierre-geopolitico" style="display:inline-block;padding:8px 18px;background:#ff6719;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;">SUBSTACK →</a>
+                <a href="https://medium.com/@bonanovalink/cuba-y-los-estados-unidos-2026-la-crisis-que-ambos-gobiernos-necesitan-0d62344e6717" style="display:inline-block;padding:8px 18px;background:#00ab6c;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;">MEDIUM →</a>
+                <a href="https://www.tiktok.com/@bona.nova3" style="display:inline-block;padding:8px 18px;background:#000000;color:var(--white);text-decoration:none;font-family:var(--mono);font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;border-radius:2px;border:1px solid var(--gray-border);">TIKTOK →</a>
             </div>
         </div>
     </div>
