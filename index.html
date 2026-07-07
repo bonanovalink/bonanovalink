@@ -250,6 +250,13 @@ footer{border-top:2px solid var(--red);}
 .series-chapter:hover{border-left-color:var(--red)!important;background:rgba(200,16,46,.04);}
 .platform-link{border-bottom:1px solid transparent;transition:border-bottom-color .2s ease,color .2s ease;}
 .platform-link:hover{border-bottom-color:var(--red);}
+/* ── HERO & BREAKING SECTION HOVER EFFECTS ── */
+.hero-main{border-left:3px solid transparent;transition:border-left-color .25s ease;}
+.hero-main:hover{border-left-color:var(--red);}
+.hero-side-item{border-left:3px solid transparent;transition:border-left-color .2s ease,background .2s ease;}
+.hero-side-item:hover{border-left-color:var(--red);background:rgba(200,16,46,.03);}
+.breaking-section{border-left:3px solid transparent;transition:border-left-color .3s ease;}
+.breaking-section:hover{border-left-color:var(--red);}
 </style>
 </head>
 <body>
@@ -352,7 +359,7 @@ footer{border-top:2px solid var(--red);}
     <span style="font-family:var(--mono);font-size:9px;letter-spacing:4px;color:var(--red);text-transform:uppercase;font-weight:700;">Últimas Publicaciones &nbsp;·&nbsp; Julio 2026</span>
   </div>
 
-  <div style="max-width:1200px;margin:0 auto;padding:40px 2rem 56px;">
+  <div class="breaking-section" style="max-width:1200px;margin:0 auto;padding:40px 2rem 56px;">
 
     <!-- BANNER PRINCIPAL: Carros → Substack -->
     <a href="https://bonanovalink.substack.com/p/el-acuerdo-implicito-como-washington" target="_blank" rel="noopener"
