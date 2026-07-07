@@ -257,6 +257,10 @@ footer{border-top:2px solid var(--red);}
 .hero-side-item:hover{border-left-color:var(--red);background:rgba(200,16,46,.03);}
 .breaking-section{border-left:3px solid transparent;transition:border-left-color .3s ease;}
 .breaking-section:hover{border-left-color:var(--red);}
+/* ── IMAGE HOVER ZOOM ── */
+.breaking-section{overflow:hidden;}
+div[style*="position:relative;background-image"]{transition:filter .35s ease,transform .45s ease;cursor:pointer;}
+div[style*="position:relative;background-image"]:hover{filter:brightness(1.12);transform:scale(1.04);}
 </style>
 </head>
 <body>
