@@ -243,6 +243,13 @@ footer{border-top:2px solid var(--red);}
 .section-rule{height:2px!important;}
 /* 14. Contact items — stronger label weight */
 .contact-label{font-weight:700;letter-spacing:2px;}
+/* ── HOVER RED LINE EXTENSIONS ── */
+.news-card.featured{box-shadow:inset 4px 0 0 transparent;transition:box-shadow .25s ease,filter .25s ease,background .25s ease;}
+.news-card.featured:hover{box-shadow:inset 4px 0 0 var(--red);filter:brightness(1.06);}
+.series-chapter{border-left:3px solid transparent!important;padding-left:1.2rem!important;transition:border-left-color .2s ease,background .2s ease;cursor:pointer!important;}
+.series-chapter:hover{border-left-color:var(--red)!important;background:rgba(200,16,46,.04);}
+.platform-link{border-bottom:1px solid transparent;transition:border-bottom-color .2s ease,color .2s ease;}
+.platform-link:hover{border-bottom-color:var(--red);}
 </style>
 </head>
 <body>
