@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage / main investigation hub -->
+  <url>
+    <loc>https://bonanovalink.netlify.app/</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bonanovalink.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonanovalink.netlify.app/"/>
+    <news:news>
+      <news:publication>
+        <news:name>Bona Nova</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07</news:publication_date>
+      <news:title>Bona Nova — Independent Journalism on US-Cuba Policy</news:title>
+    </news:news>
+  </url>
+
+</urlset>
