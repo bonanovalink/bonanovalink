@@ -304,8 +304,9 @@ div[style*="position:relative;background-image"]:hover{filter:brightness(1.12);t
 
 <!-- HERO — Newspaper front page -->
 <!-- ÚLTIMA HORA · 8 JULIO 2026 -->
-<section id="latest-news" style="padding:7.5rem 2rem 3rem;background:#0a0a0a;border-bottom:2px solid var(--gray-border);">
-  <div style="max-width:1200px;margin:0 auto;">
+<section id="latest-news" style="position:relative;padding:7.5rem 2rem 3rem;background-image:url('28.%20bruno.jpeg');background-size:cover;background-position:center top;border-bottom:2px solid var(--gray-border);">
+  <div style="position:absolute;inset:0;background:rgba(10,10,10,0.75);"></div>
+  <div style="max-width:1200px;margin:0 auto;position:relative;z-index:1;">
     <div style="display:flex;align-items:center;gap:1.5rem;margin-bottom:1.2rem;flex-wrap:wrap;">
       <span style="background:var(--red);color:#fff;font-family:var(--mono);font-size:0.58rem;letter-spacing:3px;text-transform:uppercase;padding:5px 14px;">ÚLTIMA HORA</span>
       <time datetime="2026-07-08" style="font-family:var(--mono);font-size:0.58rem;letter-spacing:2px;text-transform:uppercase;color:var(--white-muted);">8 DE JULIO, 2026</time>
